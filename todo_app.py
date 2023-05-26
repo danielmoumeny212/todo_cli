@@ -20,7 +20,7 @@ from todo_command import (
 )
 ROOT_DIR  = Path(os.getcwd())
 
-repository = TodoRepository(os.path.join(ROOT_DIR/ "v2.2/store.json"))
+repository = TodoRepository(os.path.join(ROOT_DIR/ "/store.json"))
 
 class TodoApp:
     
